@@ -13,16 +13,11 @@ I used the **Malaria dataset from TensorFlow Datasets (TFDS)**, which contains t
 This dataset is directly available in Colab and does not require manual downloading or extraction.
 
 ## What I Changed
-- I changed only the **dataset source**
-- I kept the **CNN architecture the same**
-- I did not use any advanced techniques or extra libraries
-
-## How to Run
-1. Open Google Colab  
-2. Paste the full code into a single cell  
-3. Run the cell from top to bottom  
-
-No local setup is required.
+- Removed ZIP file download and extraction used in the original code  
+- Removed manual directory-based dataset loading  
+- Replaced it with direct dataset loading from TFDS  
+- Kept the CNN architecture and training logic unchanged  
+- Did not use advanced techniques or extra libraries 
 
 ## Output
 - Training and validation accuracy
