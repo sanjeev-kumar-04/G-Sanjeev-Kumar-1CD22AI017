@@ -12,3 +12,15 @@ The codes are meant to be run **only in Google Colab**.
 - Included single-image testing after training
 - Generated a clean CNN architecture diagram for report visualization
 
+## Topic 2: Graph-Based Q-Learning for Autonomous Robot Navigation
+
+## Modifications Made
+
+- Changed the application scenario from crime investigation to warehouse robot navigation  
+- Reinterpreted graph nodes and edges to represent warehouse locations and paths  
+- Replaced police locations with hazard zones  
+- Replaced drug trace locations with charging stations  
+- Corrected optimal path output formatting for clarity  
+- Retained all visualizations and training convergence plots  
+
+
