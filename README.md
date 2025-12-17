@@ -3,7 +3,7 @@ The codes are meant to be run **only in Google Colab**.
 
 ## Topic 1: Binary Image Classification Cats vs Dogs
 
-## Modifications Made
+### Modifications Made
 
 - Replaced manually uploaded dataset with TensorFlow inbuilt Cats vs Dogs dataset (TFDS)
 - Added Batch Normalization layers to stabilize training
@@ -14,7 +14,7 @@ The codes are meant to be run **only in Google Colab**.
 
 ## Topic 2: Graph-Based Q-Learning for Autonomous Robot Navigation
 
-## Modifications Made
+### Modifications Made
 
 - Changed the application scenario from crime investigation to warehouse robot navigation  
 - Reinterpreted graph nodes and edges to represent warehouse locations and paths  
