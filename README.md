@@ -21,6 +21,17 @@ The codes are meant to be run **only in Google Colab**.
 - Replaced police locations with hazard zones  
 - Replaced drug trace locations with charging stations  
 - Corrected optimal path output formatting for clarity  
-- Retained all visualizations and training convergence plots  
+- Retained all visualizations and training convergence plots
+
+## Topic 3: Time Series Forecasting Using LSTM (Cherry Blossom Bloom Prediction)
+
+### Modifications Made
+
+- Replaced external CSV dataset with TensorFlow Datasets inbuilt *Cherry Blossoms* dataset  
+- Changed use case from airline passenger forecasting to environmental time-series prediction  
+- Handled missing values in real-world dataset by removing invalid records  
+- Adapted data preprocessing pipeline for TFDS-based time-series input  
+- Applied Min-Max normalization suitable for seasonal numerical data  
+
 
 
