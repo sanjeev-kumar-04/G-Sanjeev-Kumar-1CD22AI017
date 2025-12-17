@@ -31,7 +31,28 @@ The codes are meant to be run **only in Google Colab**.
 - Changed use case from airline passenger forecasting to environmental time-series prediction  
 - Handled missing values in real-world dataset by removing invalid records  
 - Adapted data preprocessing pipeline for TFDS-based time-series input  
-- Applied Min-Max normalization suitable for seasonal numerical data  
+- Applied Min-Max normalization suitable for seasonal numerical data
+
+# Topic 4: Character-Level Text Generation using SimpleRNN (Optimized Version)
+
+##Modifications Made
+
+### 1. Improved Training Stability
+- Input preprocessing is streamlined using NumPy arrays and TensorFlow one-hot encoding.
+- Ensured consistent sequence lengths during both training and inference to avoid runtime shape errors.
+
+### 2. Faster Convergence
+- Optimized the number of RNN units to balance learning capacity and speed.
+- Reduced unnecessary computations during text generation by limiting prediction overhead.
+
+### 3. Better Output Consistency
+- Used a different but structurally richer example sentence to improve character transition learning.
+- Ensured generated text strictly follows the learned character vocabulary.
+
+### 4. Robust Text Generation
+- Added safe character-to-index mapping during inference to prevent invalid indexing.
+- Maintained deterministic prediction using greedy decoding for reproducibility.
+
 
 
 
