@@ -41,7 +41,18 @@ The codes are meant to be run **only in Google Colab**.
 - Optimized sequence length and RNN units for faster convergence  
 - Improved input sequence handling to prevent shape mismatch errors  
 - Enhanced training stability without altering the original RNN logic  
-- Maintained character-level modeling while improving output coherence  
+- Maintained character-level modeling while improving output coherence
+
+## Topic 5: Reinforcement Learning for Connect 4 Game Playing
+
+### Modifications Made
+
+- Extended the original Tic-Tac-Toe reinforcement learning environment to a Connect 4 game setting  
+- Increased board dimensions and updated win condition from 3-in-a-row to 4-in-a-row  
+- Modified action selection to column-based moves with gravity-based token placement  
+- Optimized training episodes and exploration rate to ensure faster convergence without file dependencies  
+- Enabled direct human-vs-agent gameplay without using saved policy files  
+
 
 
 
